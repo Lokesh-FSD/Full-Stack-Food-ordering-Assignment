@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "image": "https://st.depositphotos.com/1900347/4146/i/600/depositphotos_41466555-stock-photo-image-of-slice-of-pizza.jpg",
+      "subItemsData": {
+        "name": "Tasty Pizzas",
+        "subItems": [
+          {
+            "name": "Tomato Basil Italian Pizza",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/93/5f/e7/veggiemania-pizza.jpg",
+            "price": "450",
+            "description": "Dressed with oil, the origanum and garlic cloves"
+          },
+          {
+            "name": "Bombay Pizza",
+            "image": "https://b.zmtcdn.com/data/pictures/3/19513123/fbdfa6607bdbc799aba05cd298cf8621.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "price": "550",
+            "description": "Spicy tomato sauce with Italian herbs, mushrooms, onion, cottage cheese, coriander and mozzarella"
+          },
+          {
+            "name": "Sicilia Pizza",
+            "image": "https://b.zmtcdn.com/data/pictures/6/65456/ba50a5176f9b3abf84a4b734543474a2.jpg",
+            "price": "450",
+            "description": "A thick base pizza with fresh tomato sauce, mushrooms, garlic, pickled onions"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "image": "https://media.istockphoto.com/photos/hamburger-with-cheese-and-french-fries-picture-id1188412964?k=6&m=1188412964&s=612x612&w=0&h=860S0kVoWTA60T4wakI8HLv-Y3fFw9jOKLSB4quEkIE=",
+      "subItemsData": {
+        "name": "Crispy Burgers",
+        "subItems": [
+          {
+            "name": "Fried Chicken Burger",
+            "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-1-500x500.jpg",
+            "price": "450",
+            "description": "Old School Chicken Burger"
+          },
+          {
+            "name": "Paneer Tikka Burger",
+            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_312,h_196,c_fill/vhdpx6ohlagdm6utmtss",
+            "price": "450",
+            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+          },
+          {
+            "name": "Chicken Classic Cheese Burger",
+            "image": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/2021-01/Crispy-Chicken-Sand-Kiosk-Hero-Image-1080x913.jpg?itok=F5sIYRDy",
+            "price": "550",
+            "description": "Aged cheddar, sweet pickle, tomato, red onion"
+          }
+        ]
+      }
+    }
+  ]
+}

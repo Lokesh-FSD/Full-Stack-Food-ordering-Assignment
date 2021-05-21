@@ -1,0 +1,49 @@
+
+.card{
+  padding: 5px;
+  box-shadow: 3px 3px 8px #ccc;
+  border-radius: 8px;
+  width: 300px; 
+  margin: 4px;
+}
+
+.card :hover{
+  background-color: rgb(236, 229, 192);
+  cursor: pointer;
+}
+
+.sub-item{
+  width: 950px;
+  padding: 15px;
+  box-shadow: 3px 3px 5px rgb(82, 82, 81);
+   border-radius: 8px;
+}
+.sub-item:hover{
+  background-color:rgb(241, 236, 209);
+}
+
+.O-btn{
+  width: 115px;
+  background-color:  rgb(189, 60, 60);
+  color: aliceblue;
+}
+
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.title{
+  text-align: center;
+  font-weight: 450;
+  font-size :30px;;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
