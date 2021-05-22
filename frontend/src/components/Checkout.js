@@ -6,11 +6,6 @@ import { Link } from "react-router-dom";
 export function Checkout(props) {
   const { cartItems, getFoodItems } = props;
 
-  //calculate total price of Item, with shipping cost.
-  const itemsPrice = cartItems.reduce((a, c) => a + c.price, 0);
-  const shippingCost = itemsPrice > 500 ? 0 : 50;
-  const totalPrice = itemsPrice + shippingCost;
-
   // Api to Remove items from Cart
   async function deleteFoodItem(item) {
     const deleteResponse = await axios.delete("http://localhost:8080/cartItems/deleteFoodItem", {
